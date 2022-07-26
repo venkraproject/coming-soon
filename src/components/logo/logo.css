@@ -1,0 +1,27 @@
+.section__logo {
+    position: relative;
+    height: 40vh;
+}
+
+.container__logo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    overflow: hidden;
+}
+
+/* ======== MEDIA QUERIES (MEDIUM DEVICES) ============ */
+@media screen and (max-width: 1024px) {
+    .container__logo {
+        width: 65%;
+    }
+}
+
+/* ======== MEDIA QUERIES (SMALL DEVICES) ============ */
+@media screen and (max-width: 670px) {
+    .container__logo {
+        width: 85%;
+    }
+}
