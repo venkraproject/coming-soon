@@ -1,0 +1,16 @@
+.container__socials {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.container__socials a {
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: var(--color-dark);
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.container__socials a:hover {
+    color: var(--color-highlight);
+}
